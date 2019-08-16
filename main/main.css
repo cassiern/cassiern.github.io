@@ -1,16 +1,22 @@
 body {
-	background: linear-gradient(90deg, rgba(232,231,229,1) 0%, rgba(255,250,237,1) 52%, rgba(200,192,181,1) 100%);
+	background-color: black;
+/*	background: linear-gradient(90deg, rgba(232,231,229,1) 0%, rgba(255,250,237,1) 52%, rgba(200,192,181,1) 100%);*/
 	padding: 3px;
 	text-align: center;
 	margin: 60px;
 	font-family: 'Lato', sans-serif;
 }
-#name {
+/*#name {
 	font-family: 'BioRhyme', serif;
 	font-size: 40px;
 	text-shadow: 1px .6px .4px #9c8a79;
+}*/
+#aboutMe {
+	justify-content: center;
 }
 #wrapper {
+	margin: 40px;
+	margin-top: 5%;
 	background: linear-gradient(180deg, rgba(207,203,196,1) 0%, rgba(191,181,158,0.87) 45%, rgba(102,91,75, 1) 100%),
 	url('https://images.unsplash.com/photo-1509966756634-9c23dd6e6815?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1010&q=80');
 	border-radius: 8px;
@@ -20,10 +26,8 @@ body {
 	-moz-box-shadow: 0px 7px 10px -3px rgba(0,0,0,0.71);
 }
 #projects {
-	margin: 50px 10px;
 	border-radius: 6px;
-	border: .5px solid black;
-	background-color: black;
+	text-align: center;
 }
 .icons {
 	padding: 4px;
@@ -36,9 +40,19 @@ body {
 	-moz-box-shadow: 1px 18px 32px -3px rgba(31,30,22,0.85);
 }
 
+.top {
 
-
-
+	padding: 3px;
+	height: 70vh;
+	width: 100%;
+	background: linear-gradient(180deg, rgba(207,203,196,1) 0%, rgba(191,181,158,0.87) 45%, rgba(102,91,75, 1) 100%),
+	url('https://kgarch.com/wp-content/uploads/2018/03/Building-a-Mountain-Home-in-Colorado.jpg');
+	background-size: cover;
+	border-radius: 10px;
+}
+#contact {
+	text-align: center;
+}
 
 
 
